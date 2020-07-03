@@ -96,7 +96,7 @@ class Calculator
   def process
     result = compute input
     case result
-    when "Ви вийшли з калькулятора!"
+    when "Ви вийшли з калькулятора!!"
       # команда, яка завершує виконання скрипта
       abort
     when "Введіть код існуючої команди!"
